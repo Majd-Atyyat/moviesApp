@@ -103,10 +103,23 @@ a{
         font-size: var(--fs-body);
         line-height: 1.5;
         height: 300vh;
+        width: 200vh;
     }
 
     :focus-visible{
         outline-color: var(--primary-variant);
     }
 
--
+::-webkit-scrollbar{
+    width:8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--banner-background);
+    border-radius: var(--radius-8);
+}
+
+#red{
+    background-color: red;
+}
