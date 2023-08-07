@@ -10,7 +10,7 @@
 
      <!-- favicon -->
     
-<link rel="icon" href="/assests/images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="./assests/images/favicon.ico" type="image/x-icon">
 
 <!-- favicon ends-->
 
@@ -19,11 +19,69 @@
    <!-- css style sheet end-->
   
     <!-- js files -->
-   <script src="/assests/js/global.js" defer></script>
+   <script src="./assests/js/global.js" defer></script>
    <script src="/assests/js/index.js" type="module"></script>
    <!-- js files ends -->
 </head>
 <body>
-  <h2 class="red">hello</h2>  
+
+  <!-- header starts here -->
+  <header class="header">
+    <a href="./index.html" class="logo">
+        <img src="./assests/images/logo.png" 
+        width="140"
+        height="32"
+        alt="movies logo">
+    </a>
+
+   <div class="search-box" search-box>
+    <div class="search-wrapper"
+     search-wrapper>
+        <input type="text"
+        name="search"
+        aria-label="search movies"
+        placeholder="seacrh any movies.."
+        autocomplete="off" 
+        class="search-field"
+        search-field>
+        <img src="./assests/images/search.png"
+         alt="search" 
+         class="leading-icon" 
+         width="24" 
+         height="24">
+    </div>
+    <button class="search-btn" 
+    search-toggler menu-close>
+        <img 
+        src="./assests/images/close.png" 
+        alt="close search box" 
+        width="24" 
+        height="24">
+    </button>
+   </div>
+   <button class="search-btn" search-toggler menu-close>
+    <img
+      src="./assests/images/search.png"
+      width="24"
+      height="24"
+      alt="open search box"
+    />
+  </button>
+<button class="menu-btn" 
+menu-btn menu-toggler>
+    <img src="./assests/images/menu.png" 
+    width="24"  
+    height="24" 
+    alt="open menu" 
+    class="menu">
+    <img 
+    src="./assests/images/menu-close.png" 
+    width="24"  
+    height="24" 
+    alt="close-menu"  
+    class="close">
+</button>
+  </header>
+   <!-- header ends here -->
 </body>
 </html>
